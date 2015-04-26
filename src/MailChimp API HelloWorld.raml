@@ -1,0 +1,13 @@
+#%RAML 0.8
+title: Mailchimp API HelloWorld
+version: 1.0
+baseUri: http://locahost:9905/mailchimp_hook
+/helloworld:
+  post:
+    description: <<returns details about authorised user>>
+    body:
+        application/json:
+    responses:
+      200:
+        body:
+          application/json:
